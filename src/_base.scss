@@ -1,0 +1,18 @@
+$main-color: #252728;
+$text-color: #c8c6cb;
+$linkedin: #0a66c2;
+$react: #61dafb;
+$js: #efd81d;
+$redux: #764abc;
+$html: #e54c21;
+$css: #214ce5;
+$github: #f0f6fc;
+$sass: #bf4080;
+
+@mixin borderRadius($n) {
+  border-radius: $n;
+  -webkit-border-radius: $n;
+  -moz-border-radius: $n;
+  -ms-border-radius: $n;
+  -o-border-radius: $n;
+}
