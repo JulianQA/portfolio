@@ -15,8 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeScreen />}></Route>
         <Route path="/about" element={<AboutScreen />}></Route>
-        <Route path="/proyects" element={<ProjectScreen />}></Route>
-        <Route path="/contacts" element={<ContactScreen />}></Route>
+        <Route path="/projects" element={<ProjectScreen />}></Route>
+        <Route path="/contact" element={<ContactScreen />}></Route>
         <Route path="*" element={<NotFoundScreen />}></Route>
       </Routes>
     </HashRouter>

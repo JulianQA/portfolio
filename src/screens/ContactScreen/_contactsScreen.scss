@@ -1,0 +1,12 @@
+@import "../../base";
+
+.ContactScreen {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  &__title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../base";
+
+.ProjectScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 12px;
+  &__title {
+    color: white;
+    font-size: 3rem;
+  }
+  > p {
+    color: $text-color;
+    font-size: 1.6rem;
+  }
+  &__projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
