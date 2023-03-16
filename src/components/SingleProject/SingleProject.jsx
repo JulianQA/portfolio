@@ -29,7 +29,11 @@ const SingleProject = ({ project }) => {
           >
             <BsGithub size={25} />
           </Link>
-          <Link className="links__demo github" target={"_blank"}>
+          <Link
+            to={project.deploy}
+            className="links__demo github"
+            target={"_blank"}
+          >
             <span>Demo</span>
             <FiExternalLink size={20} />
           </Link>
