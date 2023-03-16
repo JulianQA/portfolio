@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.01b44e30.css",
+    "main.js": "/portfolio/static/js/main.3a3a0746.js",
+    "static/media/diploma-javascript-profesional.png": "/portfolio/static/media/diploma-javascript-profesional.743a3ba67b6d478fe73e.png",
+    "static/media/youtube-clon.png": "/portfolio/static/media/youtube-clon.8f5fe2629db773b23c8c.png",
+    "static/media/diploma-react-redux-profesional.png": "/portfolio/static/media/diploma-react-redux-profesional.f0d9c59533edd42fa8bd.png",
+    "static/media/diploma-preprocesadores.png": "/portfolio/static/media/diploma-preprocesadores.fd09ba0c6408800f5371.png",
+    "static/media/diploma-react-practico.png": "/portfolio/static/media/diploma-react-practico.5c7760358dd0f525a20a.png",
+    "static/media/JMovies.png": "/portfolio/static/media/JMovies.b96e35aca4a625d5e99f.png",
+    "static/media/me_tiny.jpg": "/portfolio/static/media/me_tiny.4ee86087dfd1e4501db5.jpg",
+    "static/media/diploma-web-frontend.png": "/portfolio/static/media/diploma-web-frontend.237cb79d450e95267b48.png",
+    "static/media/ToDo.png": "/portfolio/static/media/ToDo.c133d2d42fa3190da0bc.png",
+    "index.html": "/portfolio/index.html",
+    "main.01b44e30.css.map": "/portfolio/static/css/main.01b44e30.css.map",
+    "main.3a3a0746.js.map": "/portfolio/static/js/main.3a3a0746.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01b44e30.css",
+    "static/js/main.3a3a0746.js"
+  ]
+}
