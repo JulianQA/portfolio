@@ -1,5 +1,5 @@
 import React from "react";
-import { FormContact } from "../../components/FormContaact/FormContact";
+import { FormContact } from "../../components/FormContact/FormContact";
 import "./_contactsScreen.scss";
 
 const ContactScreen = () => {

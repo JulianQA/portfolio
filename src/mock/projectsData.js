@@ -1,6 +1,6 @@
-import youtubeImg from "../src/assets/imgs/youtube-clon.png";
-import toDoImg from "../src/assets/imgs/ToDo.png";
-import moviesImg from "../src/assets/imgs/JMovies.png";
+import youtubeImg from "../../src/assets/imgs/youtube-clon.png";
+import toDoImg from "../../src/assets/imgs/ToDo.png";
+import moviesImg from "../../src/assets/imgs/JMovies.png";
 
 export const projectsData = [
   {

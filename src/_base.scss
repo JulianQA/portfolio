@@ -16,3 +16,18 @@ $sass: #bf4080;
   -ms-border-radius: $n;
   -o-border-radius: $n;
 }
+@mixin transform($property) {
+  transform: $property;
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+}
+
+@mixin transition($property, $time, $aceleration) {
+  transition: $property $time $aceleration;
+  -webkit-transition: $property $time $aceleration;
+  -moz-transition: $property $time $aceleration;
+  -ms-transition: $property $time $aceleration;
+  -o-transition: $property $time $aceleration;
+}

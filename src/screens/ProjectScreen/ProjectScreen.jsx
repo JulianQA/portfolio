@@ -1,6 +1,6 @@
 import React from "react";
 import { SingleProject } from "../../components/SingleProject/SingleProject";
-import { projectsData } from "../../projectsData";
+import { projectsData } from "../../mock/projectsData";
 import "./_projectsScreen.scss";
 
 const ProjectScreen = () => {

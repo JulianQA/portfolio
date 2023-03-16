@@ -2,13 +2,14 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { ImagePreview } from "../ImagePreview/ImagePreview";
 import "./_singleProjects.scss";
 
 const SingleProject = ({ project }) => {
   return (
     <div className="SingleProject">
       <figure className="SingleProject__img-container">
-        <img src={project.image} alt={project.name} />
+        <ImagePreview src={project.image} alt={project.name} />
       </figure>
       <div className="SingleProject__data">
         <div className="data__languages">
