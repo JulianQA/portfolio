@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiReact, DiSass } from "react-icons/di";
-import { SiJavascript, SiRedux } from "react-icons/si";
+import {
+  SiJavascript,
+  SiRedux,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import me from "../../assets/imgs/me_tiny.jpg";
 import "./_homesScreen.scss";
@@ -38,9 +44,12 @@ const HomeScreen = () => {
           <AiFillHtml5 className="html5" />
           <DiCss3 className="css" />
           <SiJavascript className="js" />
+          <SiTypescript className="typescript" />
           <DiReact className="react" />
           <DiSass className="sass" />
           <SiRedux className="redux" />
+          <SiNextdotjs className="next" />
+          <SiTailwindcss className="tailwind" />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import youtubeImg from "../../src/assets/imgs/youtube-clon.png";
-import toDoImg from "../../src/assets/imgs/ToDo.png";
+import nextFootballImg from "../../src/assets/imgs/next-football.png";
 import moviesImg from "../../src/assets/imgs/JMovies.png";
 
 export const projectsData = [
@@ -25,12 +25,12 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "ToDo App",
-    languages: ["react", "css"],
+    name: "NextFootball",
+    languages: ["react", "next", "tailwind", "typescript"],
     description:
-      "It's a web app that allows you to create TODOs, edit them, delete them and mark them as done.",
-    source: "https://github.com/JulianQA/todo-app",
-    image: toDoImg,
-    deploy: "https://julianqa.github.io/todo-app/",
+      "It is a web app that shows the results of live soccer matches, the details of each match such as the lineup, events and statistics. Consumes API-FOOTBALL API",
+    source: "https://github.com/JulianQA/next-football",
+    image: nextFootballImg,
+    deploy: "https://next-football-kappa.vercel.app/",
   },
 ];
